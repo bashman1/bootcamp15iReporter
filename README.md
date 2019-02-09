@@ -19,7 +19,7 @@ $ mkvirtualenv venv
 $ pip install -r requirements.txt
 $ python run.py
 ```
-## API endpoints
+## aPI endpoints
 
 Prefix `/api/v1` to the endpoints
 
@@ -31,18 +31,18 @@ Prefix `/api/v1` to the endpoints
 
 
 
-## Build with
+## build with
 *Python 3
 *Flask
 
-## Tools
+## tools
 * vs code
 * virtual envvironment
 * Pylint
 * Pytest
 
 ## Versioning
-Version 1 of the API
+version 1 of the API
 
-## Author
+## author
 Wamula Bashir Saidi
