@@ -5,6 +5,10 @@ Corruption is a huge bane to Africa’s development. African countries must deve
 1. user registration 
 2. user login
 3. retreave all users
+4. report a red-flag
+5. retreave all red-flags
+6. retreave a specific red-flag
+7. delete a red-flag
 
 ## requirements
 1. Working Computer with Windows, Mac, Linux OS and Python 3 Installed
@@ -28,6 +32,10 @@ Prefix `/api/v1` to the endpoints
 | POST | `/api/v1/auth/signup` | user ragistration|
 | POST | `/api/v1/auth/login`| user login|
 | GET  | `/api/v1/users` | retreave all users|
+| POST | `api/v1/red-flags`| reporting a red-flag|
+| GET  | `/api/v1/red-flags`| retreaving all red-flags|
+| GET  |  `/api/v1/red-flags/<int:redflag_id>`| retreave a specific red-flag|
+| DELETE | `/api/v1/red-flags/<int:redflag_id>` | delete a specific red-flag |
 
 
 

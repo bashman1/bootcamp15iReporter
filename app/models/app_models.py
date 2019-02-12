@@ -10,7 +10,7 @@ class User():
         self.is_admin = is_admin
 
 
-class Incident():
+class RedFlag():
 
 
     def __init__(self, incident_id, created_on, created_by, incident_type, location, \

@@ -1,6 +1,7 @@
 from flask import jsonify, request
 from app.models.app_models import User
 from werkzeug.security import generate_password_hash, check_password_hash
+from datetime import datetime
 
 class Auth:
 
@@ -14,6 +15,11 @@ class Auth:
     def get_users(self):
         return self.user_list
 
+    def auto_generate_user_id(self):
+        if len(self.user_list) == 0:
+            return 1
+        return len(self.user_list)+1
+
     
     # def check_users(self):
     #     for user in self.user_list:
@@ -21,11 +27,11 @@ class Auth:
 
 
     def signup(self, data):
-        user_id = data['user_id']
+        user_id = self.auto_generate_user_id()
         username = data['username']
         email = data['email']
         password = data['password']
-        registered = data['registered']
+        registered = datetime.now().strftime('%d/%h/%Y %H:%M')
         is_admin = data['is_admin']
 
         if not type(username) == str:
