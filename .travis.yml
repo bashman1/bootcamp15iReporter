@@ -13,3 +13,5 @@ script:
 branches:
   only:
   - deploy
+after_success:
+ - coveralls
