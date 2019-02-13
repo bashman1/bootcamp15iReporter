@@ -11,7 +11,7 @@ redflag = ReportRedFlag()
 
 @app.route('/api/v1')
 def index():
-    return jsonify({"Message":"Hello World !"}), 200
+    return jsonify({"Message":"Welcome to iReporter API try again"}), 200
 
 # the auth route starts here
 
