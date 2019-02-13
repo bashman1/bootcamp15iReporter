@@ -93,8 +93,8 @@ class Auth:
         for user in self.user_list:
             if user['username'] == req_username and check_password_hash(user['password'], req_password):
                 return jsonify({'message':'User {} has logedin.'.format(req_username)}), 200
-            return jsonify({'message':'User is not registered'})
-        return jsonify({'message':'No users found'}), 400
+            # return jsonify({'message':'User is not registered'})
+        return jsonify({'message':'No users found'}), 401
 
 
             

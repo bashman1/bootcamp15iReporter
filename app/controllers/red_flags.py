@@ -11,7 +11,7 @@ class ReportRedFlag():
 
     def add_red_flag(self, red_flag):
         new_red_flag = red_flag.__dict__
-        self.red_flag_list.append(new_red_flag)
+        self.red_flag_list.append(new_red_flag), 201
 
     def fetch_all_red_flags(self):
         return self.red_flag_list
