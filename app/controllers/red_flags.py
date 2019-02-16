@@ -104,7 +104,7 @@ class ReportRedFlag():
         for redflag in self.red_flag_list:
             if redflag['incident_id'] == redflag_id:
                 self.red_flag_list.remove(redflag)
-                return jsonify({"message":"Red-flag id = {} is deleted".format(redflag_id)}), 200
+                return jsonify({"message":"Red-flag id is deleted"}), 200
         return jsonify({"message":"no red-flags found"}), 200
         
 
