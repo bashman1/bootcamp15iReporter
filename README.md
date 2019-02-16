@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/bashman1/bootcamp15iReporter.svg?branch=deploy)](https://travis-ci.org/bashman1/bootcamp15iReporter/tree/deploy)
 [![Coverage Status](https://coveralls.io/repos/github/bashman1/bootcamp15iReporter/badge.svg?branch=deploy)](https://coveralls.io/github/bashman1/bootcamp15iReporter?branch=deploy)
 [![Requirements Status](https://requires.io/github/bashman1/bootcamp15iReporter/requirements.svg?branch=deploy)](https://requires.io/github/bashman1/bootcamp15iReporter/requirements/?branch=deploy)
-
 [![Maintainability](https://api.codeclimate.com/v1/badges/cd6d05aff72cc080560e/maintainability)](https://codeclimate.com/github/bashman1/bootcamp15iReporter/maintainability)
 
 # bootcamp15iReporter
